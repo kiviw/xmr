@@ -63,6 +63,7 @@ function display_monero_subaddress() {
         echo '<p><strong>Monero Payment Details:</strong></p>';
         echo '<p>Send Monero to the following subaddress:</p>';
         echo "<p><code>$subaddress</code></p>";
+        echo '<p>Payment expires in <span id="countdown-timer"></span></p>';
     }
 }
 
